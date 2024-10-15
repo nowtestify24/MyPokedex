@@ -114,7 +114,7 @@ def show_pokedex():
     title_frame = tk.Frame(window, bg="#ADD8E6")            #declare title frame and lable
     title_frame.pack(pady=10)
 
-    title_label = tk.Label(title_frame, text="Kane's Pokedex", font=("Arial", 24, "bold"), bg="#ADD8E6", fg="#333")
+    title_label = tk.Label(title_frame, text="MyPokedex", font=("Arial", 24, "bold"), bg="#ADD8E6", fg="#333")
     title_label.pack()
 
     back_button = tk.Button(window, text="Back", command=show_main_menu, bg="#FF6347", fg="#FFF", relief="raised", bd=3)
@@ -185,7 +185,7 @@ def show_pokedex():
 #window declaration
 window = tk.Tk()    
 window.geometry("600x600")
-window.title("Kane's Pokedex")
+window.title("MyPokedex")
 window.config(padx=20, pady=20, bg="#ADD8E6")  # Light blue background
 window.minsize(600, 600)  # Minimum size: 600x600 pixels
 pygame.mixer.init()

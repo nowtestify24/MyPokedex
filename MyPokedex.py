@@ -80,7 +80,7 @@ def toggle_music():
     if pygame.mixer.music.get_busy():
         pygame.mixer.music.stop()
     else:
-        pygame.mixer.music.load("/YourMusicPathHere/PokemonMusic.mp3")
+        pygame.mixer.music.load("C:/Users/Ross/Desktop/PythonStuff/PokemonMusic/PokemonCenter.mp3")
         pygame.mixer.music.play(-1)
 
 def show_main_menu():
@@ -173,7 +173,7 @@ def show_pokedex():
     random_frame = tk.Frame(window, bg="#ADD8E6")
     random_frame.pack(pady=10)
     #button that gives us a random pokemon
-    btn_random = tk.Button(random_frame, text="Random", command=randomPokemon, bg="#FF1493", fg="#FFF", relief="raised", bd=3)
+    btn_random = tk.Button(random_frame, text="Random Pokemon", command=randomPokemon, bg="#FF1493", fg="#FFF", relief="raised", bd=3)
     btn_random.config(font=("Red Hat Mono", 14, "bold"))  # Increase the font size
     btn_random.pack(pady=10)
 

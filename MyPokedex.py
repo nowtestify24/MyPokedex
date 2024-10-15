@@ -80,7 +80,7 @@ def toggle_music():
     if pygame.mixer.music.get_busy():
         pygame.mixer.music.stop()
     else:
-        pygame.mixer.music.load("C:/Users/Ross/Desktop/PythonStuff/PokemonMusic/PokemonCenter.mp3")
+        pygame.mixer.music.load("/YourMusicPathHere/PokemonMusic.mp3")
         pygame.mixer.music.play(-1)
 
 def show_main_menu():

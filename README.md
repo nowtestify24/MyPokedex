@@ -41,7 +41,7 @@ pip install pypokedex pillow requests pygame
 # Music Playback
 To enjoy background music while using the Pokedex:
 
-- Prepare your music file: Place an MP3 file named PokemonCenter.mp3 in a designated directory on your computer.
+- Prepare your music file: Place an MP3 file named PokemonMusic.mp3 in a designated directory on your computer.
 
 - Edit the file path: Ensure the path in the script points to the location of your music file.
 

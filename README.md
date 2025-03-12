@@ -1,7 +1,7 @@
 ## MyPokedex
 
 # Overview
-MyPokedex is a Python-based graphical user interface (GUI) application that allows users to search and explore Pokémon information. Built using the tkinter library for the GUI, pypokedex to fetch Pokémon data, and pygame for music playback, this application provides a comprehensive and interactive experience for Pokémon enthusiasts.
+MyPokedex is a Python-based graphical user interface (GUI) application that allows users to search and explore Pokémon information. Built using the tkinter library for the GUI, pypokedex to fetch Pokémon data, and pygame for music playback, this application provides a comprehensive and interactive tool for Pokémon enthusiasts.
 
 # Features
 Search by ID or Name: Enter a Pokémon ID or name to display its image, dex number, name, and types.
